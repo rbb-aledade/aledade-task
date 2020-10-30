@@ -1,4 +1,4 @@
-#This repo is for creating VPCs (Dev&Prod), EC2 instances (Dev,Prod) with terraform, and deploy Postgresql with Ansible. 
+# This repo is for creating VPCs (Dev&Prod), EC2 instances (Dev,Prod) with terraform, and deploy Postgresql with Ansible. 
 
 In your Bastion host (_with Administrator Access_), install _Terraform 11.3_ 
 
