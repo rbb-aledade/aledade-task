@@ -1,6 +1,6 @@
 environment = "dev" 
 
-s3_bucket = "alelade-rbbit-dev" #Will be used to set backend.tf 
+s3_bucket = "alelade-rbbit-example" #Will be used to set backend.tf 
 
 s3_folder_project = "vet" #Will be used to set backend.tf 
 

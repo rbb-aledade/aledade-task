@@ -1,3 +1,5 @@
+Before we applying our terraform files, we need to create an S3 bucket for each environment! The bucket name will be added in _.tfvars_ files.
+
 In the configurations folder, update the variables for VPCs and Instances for each environment. 
 
 After the variables are entered, in the terraform root folder;
