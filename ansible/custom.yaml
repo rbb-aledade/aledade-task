@@ -1,11 +1,11 @@
-postgresql_max_connections: 30
+postgresql_max_connections: 30     #20 for Prod env
 postgresql_wal_level: "hot_standby"
 postgresql_hot_standby: "on"
 postgresql_statement_timeout: 60000
 postgresql_log_lock_waits: "on"
 postgresql_log_destination: "csvlog"
 postgresql_log_min_duration_statement: 0
-postgresql_users:
+postgresql_users:    # Update users for Prod env
   - name: admin
     pass: admin
     encrypted: yes
